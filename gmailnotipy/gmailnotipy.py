@@ -36,11 +36,14 @@ def main():
   interval = config['interval']
   accounts = config['accounts']
   while True:
-    for i in accounts:
-      print('checking', i['username'])
-      listen_new_email(i['username'], i['password'])
-    print('sleep', interval)
-    time.sleep(interval)
+    try:
+      for i in accounts:
+        print('checking', i['username'])
+        listen_new_email(i['username'], i['password'])
+      print('sleep', interval)
+      time.sleep(interval)
+    except Exception as ex:
+      print(ex)
 
 if __name__=="__main__":
   main()
