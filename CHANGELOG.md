@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.0.4 (2022-03-12)
+### Fix
+* Add custom icon ([`14d65b9`](https://github.com/iamtalhaasghar/gmailnotipy/commit/14d65b9f598f4d86dbf263ad6e88ad9531ed2291))
+
 ## v0.0.3 (2022-03-12)
 ### Fix
 * Daemonize gmailnotipy ([`8addc88`](https://github.com/iamtalhaasghar/gmailnotipy/commit/8addc8851ff58c9a023a8d6d78d257857a4b47ed))
