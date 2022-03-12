@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.0.3 (2022-03-12)
+### Fix
+* Daemonize gmailnotipy ([`8addc88`](https://github.com/iamtalhaasghar/gmailnotipy/commit/8addc8851ff58c9a023a8d6d78d257857a4b47ed))
+
 ## v0.0.2 (2022-03-12)
 ### Fix
 * Changed startup script name ([`a26b631`](https://github.com/iamtalhaasghar/gmailnotipy/commit/a26b631ae2b73290603150fc4c2482e063135547))
