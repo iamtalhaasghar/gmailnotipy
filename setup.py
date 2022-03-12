@@ -21,5 +21,5 @@ setuptools.setup(
     ],
     python_requires='>=3.0',
     install_requires=[i for i in open('requirements.txt').readlines() if len(i)!=0],
-    entry_points={'console_scripts': ['wt = gmailnotipy:gmailnotipy.main']},
+    entry_points={'console_scripts': ['gmailnotipy = gmailnotipy:gmailnotipy.main']},
 )
