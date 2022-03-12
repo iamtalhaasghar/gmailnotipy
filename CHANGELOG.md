@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.0.5 (2022-03-12)
+### Fix
+* Catch all exceptions gracefully ([`4720fe6`](https://github.com/iamtalhaasghar/gmailnotipy/commit/4720fe6d6234d15832bf3d096a7e2ccbc8e04588))
+
 ## v0.0.4 (2022-03-12)
 ### Fix
 * Add custom icon ([`14d65b9`](https://github.com/iamtalhaasghar/gmailnotipy/commit/14d65b9f598f4d86dbf263ad6e88ad9531ed2291))
