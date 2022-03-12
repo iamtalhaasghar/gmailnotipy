@@ -8,7 +8,7 @@ imap_ssl_host = 'imap.gmail.com'
 imap_ssl_port = 993
 cache_file_path = os.path.join(os.path.expanduser('~'), '.cache', 'gmailnotipy.json')
 accounts_file_path = os.path.join(os.path.expanduser('~'), '.config', 'gmailnotipy.json')
-icon_path = os.path.join(os.path.dirname(__file__), 'gmail.svg')
+icon_path = '/usr/share/icons/Papirus/48x48/apps/gmail.svg'#os.path.join(os.path.dirname(__file__), 'gmail.svg')
 
 def listen_new_email(username, password):
 
